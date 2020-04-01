@@ -15,11 +15,11 @@ var nowServingPerson= katzDeliLine.shift()
 return nowServingPerson}
 }else{return "There is nobody waiting to be served!"}
 }
-<<<<<<< HEAD
+
 var katzDeliLine = ["Bill", "Jane", "Ann"];
-=======
+
 var katzDeliLine = ["Steven", "Blake", "Avi"];
->>>>>>> 131ec82b968d7b0b5a342722c44f04ced8337bcc
+
 function currentLine(katzDeliLine){
 if(katzDeliLine.length>0){
 for(var i=0;i<katzDeliLine.length;i++){
